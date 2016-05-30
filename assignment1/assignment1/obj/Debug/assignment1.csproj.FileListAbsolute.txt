@@ -3,3 +3,6 @@ C:\Users\GCSTUDENT\Desktop\assignment1\assignment1\bin\assignment1.dll
 C:\Users\GCSTUDENT\Desktop\assignment1\assignment1\bin\assignment1.pdb
 C:\Users\GCSTUDENT\Desktop\assignment1\assignment1\obj\Debug\assignment1.dll
 C:\Users\GCSTUDENT\Desktop\assignment1\assignment1\obj\Debug\assignment1.pdb
+C:\Users\GCSTUDENT\Desktop\assignment1\assignment1\obj\Debug\assignment1.csprojResolveAssemblyReference.cache
+C:\Users\GCSTUDENT\Desktop\assignment1\assignment1\obj\Debug\assignment1.Properties.Resources.resources
+C:\Users\GCSTUDENT\Desktop\assignment1\assignment1\obj\Debug\assignment1.csproj.GenerateResource.Cache

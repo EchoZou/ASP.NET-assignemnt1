@@ -2,10 +2,10 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <div class="container">
-        <form action="mailto:zoumo523@gmail.com" method="post" enctype="text/plain">
          <div class="row">
             <div class="col-md-offset-3 col-md-6">
                 <h1>Contact Us</h1>
+                <!-- textboxes -->
                 <div class="form-group">
                     <label class="control-label" for="FirstNameTextBox">First Name</label>
                     <asp:TextBox runat="server" CssClass="form-control" ID="FirstNameTextBox" placeholder="First Name" required="true"></asp:TextBox>
@@ -34,6 +34,5 @@
                 
             </div>
         </div>
-      </form>
     </div>
 </asp:Content>

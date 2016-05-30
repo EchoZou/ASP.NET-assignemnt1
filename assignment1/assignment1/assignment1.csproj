@@ -60,6 +60,7 @@
     <Content Include="About.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Products.aspx" />
+    <None Include="Resources\CommercialInsurance.jpg" />
     <Content Include="Services.aspx" />
     <Content Include="Site.Master" />
     <Content Include="Default.aspx" />
@@ -126,6 +127,11 @@
       <DependentUpon>Products.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Services.aspx.cs">
       <DependentUpon>Services.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -150,6 +156,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Asset\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -1,4 +1,9 @@
-﻿using System;
+﻿//name: Mo Zou
+//student#: 200271124
+//date: May 30, 2016
+//Description: This is assignemnt 1 for Enterprise Programming, summer 2016. Its about a basic ASP.NET porfolio web site.
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,6 +16,7 @@ namespace assignment1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            //call addActiveClass method
             addActiveClass();
         }
         
@@ -21,6 +27,7 @@ namespace assignment1
          */
         private string addActiveClass()
         {
+            //switch pages
             switch(Page.Title)
             {
                 case "Home Page":
@@ -41,6 +48,6 @@ namespace assignment1
 
             }
             return Page.Title;
-        }
+        }//method end
     }
 }
